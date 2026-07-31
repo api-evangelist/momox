@@ -1,7 +1,18 @@
 aid: momox
 name: Momox
-description: Momox is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  momox SE (formerly Momox AG / Momox GmbH) is a Berlin-based re-commerce company
+  founded by Christian Wegner in 2004 — the name stands for "Moderner Medien Online
+  Express-Ankauf" (Modern Media Online Express Purchase). Through momox.de it buys
+  used books, CDs, DVDs/Blu-rays and games from private sellers at fixed prices in
+  Germany, Austria, France, Belgium and the UK, reselling them via its Medimops shop
+  and third-party marketplaces. Its momox fashion arm (formerly ubup.com,
+  momoxfashion.com) does the same for second-hand clothing, shoes and accessories.
+  momox runs large logistics centres in Berlin, Leipzig and Neuenhagen bei Berlin and
+  has handled more than 350 million articles since founding. momox is a consumer-facing
+  re-commerce operation; it publishes no official public developer program, API portal,
+  or SDKs. The only machine surface is an internal, undocumented mobile-app pricing
+  endpoint (api.momox.de / api.momox.fr) that is not offered as a first-party API.
 url: https://raw.githubusercontent.com/api-evangelist/momox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://momox.biz/images/static/logoScroll.svg
 tags:
 - Company
+- Re-Commerce
+- Marketplace
+- Second-Hand
+- Books
+- Media
+- Fashion
+- E-Commerce
+- Sustainability
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.momox.de
+  url: https://www.momox.de
+- type: TermsOfService
+  url: https://www.momox.de/agb/
+- type: PrivacyPolicy
+  url: https://momox.biz/en/privacy-policy
+- type: Support
+  url: https://www.momox.de/fragen-und-antworten/
+- type: Blog
+  url: https://blog.momoxfashion.com/de/
+- type: DomainSecurity
+  url: security/momox-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
